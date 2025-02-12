@@ -12,7 +12,7 @@ public class MergeSortListNodes {
         }
     }
 
-    public MergeSortListNodes mergeTwoLists(ListNode list1, ListNode list2) {
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
 
         ListNode blank = new ListNode(0);
         ListNode current = blank;
